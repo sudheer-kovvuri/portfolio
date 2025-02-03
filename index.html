@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veera Kovvuri - Data Analyst Portfolio</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
-        header { background-color: #333; color: white; padding: 20px 0; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; }
-        section { padding: 20px; max-width: 800px; margin: auto; }
-        .projects img { width: 100%; height: auto; border-radius: 8px; }
-        footer { background-color: #333; color: white; text-align: center; padding: 10px 0; }
-        .contact-form input, .contact-form textarea { width: 100%; padding: 10px; margin: 5px 0; }
-        .contact-form button { background-color: #333; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; line-height: 1.6; }
+        header { background-color: #222; color: white; padding: 20px 0; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 20px; max-width: 900px; margin: auto; background-color: white; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        h1, h2, h3 { color: #222; }
+        ul { padding-left: 20px; }
+        footer { background-color: #222; color: white; text-align: center; padding: 10px 0; }
+        .contact-form input, .contact-form textarea { width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 4px; }
+        .contact-form button { background-color: #222; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 4px; }
+        .contact-form button:hover { background-color: #444; }
+        @media (max-width: 600px) {
+            nav a { display: block; margin: 10px 0; }
+        }
     </style>
 </head>
 <body>
@@ -28,35 +34,35 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Over 5 years of experience in Business Intelligence, Data Analytics, and Data Visualization using Power BI, SQL, and other reporting tools. Strong expertise in designing and developing dashboards, reports, and data models to support business decision-making.</p>
+        <p>Dynamic Data Analyst with over 5 years of experience in Business Intelligence, Data Analytics, and Data Visualization. Skilled in leveraging Power BI, SQL, and advanced data modeling techniques to deliver actionable insights and support data-driven decision-making across industries.</p>
     </section>
 
     <section id="experience">
         <h2>Professional Experience</h2>
-        <h3>Data Analyst - Elevance Health, Atlanta (June 2024 – Present)</h3>
+        
+        <h3>Data Analyst - Elevance Health, Atlanta (2024 – Present)</h3>
         <ul>
-            <li>Developed interactive Power BI dashboards to track KPIs.</li>
-            <li>Integrated Power BI with AWS Redshift and Snowflake.</li>
-            <li>Implemented row-level security for secure data access.</li>
+            <li>Designed Power BI dashboards to track KPIs and optimize business performance.</li>
+            <li>Integrated large datasets from AWS Redshift and Snowflake for advanced analytics.</li>
+            <li>Implemented row-level security (RLS) for data governance and secure access.</li>
         </ul>
 
-        <h3>Data Analyst - J.P. Morgan Chase, India (Apr 2021 – Nov 2022)</h3>
+        <h3>Data Analyst - J.P. Morgan Chase, India (2021 – 2022)</h3>
         <ul>
-            <li>Designed Power BI reports for financial data analysis.</li>
-            <li>Optimized Power BI data models for performance.</li>
-            <li>Automated report generation using Power BI Service.</li>
+            <li>Developed financial data reports in Power BI to streamline business operations.</li>
+            <li>Optimized data models and automated report generation with Power BI Service.</li>
         </ul>
 
-        <h3>Market Research Analyst - Lumirise, India (Sep 2019 – Mar 2021)</h3>
+        <h3>Market Research Analyst - Lumirise, India (2019 – 2021)</h3>
         <ul>
-            <li>Developed Tableau dashboards for market analysis.</li>
-            <li>Created complex SQL queries and ETL pipelines.</li>
+            <li>Created interactive Tableau dashboards for market trend analysis.</li>
+            <li>Developed SQL queries and automated ETL pipelines to support data workflows.</li>
         </ul>
 
-        <h3>Database Administrator - Sparklehood, India (July 2016 – Aug 2019)</h3>
+        <h3>Database Administrator - Sparklehood, India (2016 – 2019)</h3>
         <ul>
-            <li>Managed SQL Server and Oracle databases.</li>
-            <li>Developed and maintained SSRS reports.</li>
+            <li>Managed SQL Server and Oracle databases, enhancing data performance.</li>
+            <li>Automated ETL processes using SSIS, improving data integration efficiency.</li>
         </ul>
     </section>
 
@@ -64,21 +70,21 @@
         <h2>Projects</h2>
         <div>
             <h3>Sales Performance Dashboard</h3>
-            <p>Developed a Power BI dashboard to track sales trends, revenue growth, and customer segmentation.</p>
+            <p>Developed an interactive Power BI dashboard to analyze sales trends, revenue growth, and customer segmentation for data-driven business strategies.</p>
         </div>
         <div>
             <h3>Financial Risk Analysis</h3>
-            <p>Created a Power BI solution for financial risk management, integrating data from multiple sources.</p>
+            <p>Designed a Power BI solution to assess financial risks, integrating data from multiple sources for comprehensive risk management.</p>
         </div>
         <div>
             <h3>Inventory Optimization</h3>
-            <p>Designed a Power BI dashboard to optimize inventory levels and reduce stock shortages.</p>
+            <p>Created a dashboard to optimize inventory levels, reducing stock shortages and improving supply chain efficiency.</p>
         </div>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Email: vvsudheer1995@gmail.com | Phone: +1 314 299 5005</p>
+        <p>Email: <a href="mailto:vvsudheer1995@gmail.com">vvsudheer1995@gmail.com</a> | Phone: <a href="tel:+13142995005">+1 314 299 5005</a></p>
         <form class="contact-form">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
